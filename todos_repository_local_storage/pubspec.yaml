@@ -8,7 +8,9 @@ dependencies:
   flutter:
     sdk: flutter
   todos_repository_core:
-    path: ../todos_repository_core
+    git:
+      url: git@github.com:moyaying/flutter_architecture_samples.git
+      path: todos_repository_core
   rxdart: ^0.23.1
   key_value_store:
 
